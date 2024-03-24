@@ -11,7 +11,7 @@ section{
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,10 @@ section{
 .accordcont button:hover{
     color: brown;
     background-color: black;
+}
+.accordcont button:focus{
+    color: white;
+    background-color: darkcyan;
 }
 .accord{
     cursor: pointer;
